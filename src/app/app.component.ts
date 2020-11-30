@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+  showFooter = true;
+
+  toogleFooter() {
+    this.showFooter = !this.showFooter;
+  }
 }
+
